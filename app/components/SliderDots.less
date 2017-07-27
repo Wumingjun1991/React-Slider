@@ -1,0 +1,19 @@
+.slider-dots{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  .dot{
+    display: inline-block;
+    margin-left: 8px;
+    border: 7px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    &:hover{
+      cursor: pointer;
+      border: 7px solid rgba(255,255,255,0.6);
+    }
+    &.active{
+      border: 7px solid orange;
+    }
+  }
+}
